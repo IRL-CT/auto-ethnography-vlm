@@ -1,6 +1,6 @@
-# Behavioral Video Annotator
+# Video Annotation Tool 
 
-**Automated video ethnography tool using Google Gemini Vision Language Model for behavioral research**
+**Automated video annotation and analysis tool using Google Gemini Vision Language Model for behavioral research**
 
 Transform hours of manual video annotation into minutes of automated analysis while maintaining research-grade accuracy. Originally developed at Cornell's Interaction Research Lab for human-robot interaction studies.
 
@@ -22,7 +22,7 @@ The tool automatically:
 ### Prerequisites
 - Google Cloud account with Gemini API access
 - Box account with videos to analyze
-- Google Colab (recommended) or Python 3.7+ environment
+- Google Colab (highly recommended so you can link with Google Drive) 
 
 ### One-Command Setup
 ```python
@@ -64,7 +64,7 @@ Each interaction includes:
 ## Performance Validation
 
 **Tested on 5-minute HRI video segments:**
-- **Precision**: 90% (9/10 auto-detected were valid)
+- **Precision**: 90% (9/10 auto-detected were valid!)
 - **Recall**: 75% (9/12 human-detected were found)
 - **Agreement on interaction types**: 89%
 - **Time savings**: ~95% reduction in annotation time
@@ -107,7 +107,7 @@ The system consistently identifies major social interactions while occasionally 
 ### 2. Box Integration
 1. Create Box developer app
 2. Get Client ID and Secret
-3. Set redirect URL to: `https://irl.tech.cornell.edu/auto-ethnography-vlm/box-oauth-redirect.html`
+3. Set redirect URL to: `https://irl.tech.cornell.edu/video-annotator/box-oauth-redirect.html`
 
 ### 3. Run in Colab
 1. Open the notebook in Google Colab
@@ -150,4 +150,4 @@ This tool is actively developed for research use. Suggestions and improvements w
 
 ---
 
-**Cornell Interaction Research Lab** | *Making video ethnography accessible to researchers*
+**Cornell Interaction Research Lab** | *Making video analysis easier for researchers!*
