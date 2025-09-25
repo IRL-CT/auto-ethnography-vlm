@@ -1,0 +1,23 @@
+# API Keys and Secrets
+*.key
+config.py
+secrets.json
+.env
+
+# Large Files
+*.mp4
+*.mov
+*.avi
+data/sample_videos/
+*.xlsx
+*.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# OS
+.DS_Store
+Thumbs.db
